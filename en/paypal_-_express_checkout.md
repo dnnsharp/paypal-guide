@@ -1,7 +1,5 @@
 # PayPal - Express Checkout
 
-
-
 **Breaking Changes** Increased minimum requirements to .NET 4.5 ** ** 
 
 Express Checkout is a fast, easy way for buyers to pay with PayPal. Express Checkout eliminates one of the major causes of checkout abandonment by giving buyers all the transaction details at once, including order details, shipping options, insurance choices, and tax totals. 
