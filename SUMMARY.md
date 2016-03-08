@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [About](en/About.md)
-* Installation
+* [Installation](en/installation.md)
 
