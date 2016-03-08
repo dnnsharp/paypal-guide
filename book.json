@@ -1,0 +1,7 @@
+{
+    "variables": {
+        "code": "PayPal",
+        "name": "PayPal",
+        "productPage": "http://www.dnnsharp.com/dnn/integrations/paypal"
+    }
+}
