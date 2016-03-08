@@ -1,7 +1,7 @@
 {
     "variables": {
-        "code": "MAILCHIMP",
-        "name": "Mailchimp",
-        "productPage": "http://www.dnnsharp.com/integrations/mailchimp"
+        "code": "PayPal",
+        "name": "PayPal",
+        "productPage": "http://www.dnnsharp.com/dnn/integrations/paypal"
     }
 }
