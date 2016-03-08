@@ -3,7 +3,7 @@
 **Breaking Changes** Increased minimum requirements to .NET 4.5 
 
 Start by adding a new form on the page. On the Initialization Screen, either use the template or start with a blank form. If latter, then add a button the form. From the list of actions select one of the paypal actions under Payments section. Check screenshot below for exact location. 
-![][92] 
+![](paypal-actions.png)
 
 ### How to setup a test account ### 
 
@@ -20,7 +20,7 @@ go to Applications -> My Apps
 Create a new app.
 
 After you created the app, you can click on it in the apps list, and you will see the Client ID and the Secret. 
-![][93] 
+![](PayPal credit card REST API.png)
 
 You can use then the credentials in your module settings, as seen in the above image. 
 
@@ -43,8 +43,8 @@ go to Applications -> Accounts
 On Sandbox test accounts -> Create accounts 
 
 If not seen when created, you can check the credentials for each facilitator and buyer pair by clicking on their profile link on the list, as seen below: 
-![][94] 
-![][95] 
+![](Sandbox Test Accounts   PayPal Developer.png)
+![](Sandbox Test Accounts   PayPal Developer credentials.png)
 
 Format your PayPal API requests using the details from your test accounts as seen below. ![][96] When filling the form, for testing purposes, use the other account, the buyer one, credentials.
 [1]: /_/rsrc/1380524206563/config/customLogo.gif?revision=3
@@ -140,7 +140,7 @@ Format your PayPal API requests using the details from your test accounts as see
 [91]: /system/app/pages/sitemap/hierarchy
 [92]: http://action-form.dnnsharp.com/_/rsrc/1425321994341/extensions/paypal/paypal-actions.png
 [93]: http://action-form.dnnsharp.com/_/rsrc/1425452991964/extensions/paypal/PayPal%20credit%20card%20REST%20API.png
-[94]: http://action-form.dnnsharp.com/_/rsrc/1425453047449/extensions/paypal/Sandbox%20Test%20Accounts%20%20%20PayPal%20Developer.png
+  [94]: http://action-form.dnnsharp.com/_/rsrc/1425453047449/extensions/paypal/Sandbox%20Test%20Accounts%20%20%20PayPal%20Developer.png
 [95]: http://action-form.dnnsharp.com/_/rsrc/1425453119908/extensions/paypal/Sandbox%20Test%20Accounts%20%20%20PayPal%20Developer%20credentials.png
 [96]: http://action-form.dnnsharp.com/_/rsrc/1425453241916/extensions/paypal/PayPal%20express%20checkout.png
 [97]: http://www.dnnsharp.com/dnn/modules/action-form-builder/whats-new
