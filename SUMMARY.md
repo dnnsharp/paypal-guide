@@ -5,4 +5,5 @@
 * [Installation](en/installation.md)
 * [FAQs](en/faqs.md)
 * [Resources](en/resources.md)
+* PayPal - Credit Card (using REST API)
 
