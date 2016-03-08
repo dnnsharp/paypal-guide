@@ -6,5 +6,5 @@
 * [FAQs](en/faqs.md)
 * [Resources](en/resources.md)
 * [PayPal - Credit Card (using REST API)](en/paypal_-_credit_card_using_rest_api.md)
-* PayPal - Express Checkout 
+* [PayPal - Express Checkout](en/paypal_-_express_checkout.md)
 
