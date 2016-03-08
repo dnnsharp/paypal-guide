@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [About](about.md)
+* [About](About.md)
 * [Installation](installation.md)
 * [FAQs](faqs.md)
 * [Resources](resources.md)
