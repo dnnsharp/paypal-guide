@@ -2,9 +2,9 @@
 
 * [Introduction](README.md)
 * [About](about.md)
-* [Installation](en/installation.md)
-* [FAQs](en/faqs.md)
-* [Resources](en/resources.md)
-* [PayPal - Credit Card (using REST API)](en/paypal_-_credit_card_using_rest_api.md)
-* [PayPal - Express Checkout](en/paypal_-_express_checkout.md)
+* [Installation](installation.md)
+* [FAQs](faqs.md)
+* [Resources](resources.md)
+* [PayPal - Credit Card (using REST API)](paypal_-_credit_card_using_rest_api.md)
+* [PayPal - Express Checkout](paypal_-_express_checkout.md)
 
