@@ -4,5 +4,5 @@
 * [About](en/About.md)
 * [Installation](en/installation.md)
 * [FAQs](en/faqs.md)
-* Resources
+* [Resources](en/resources.md)
 
