@@ -58,3 +58,4 @@ Several tokens are available to use On Error for example to get a clue on what a
 
 ![](Tokens.png)
 
+When making the payment, if the credit card number is invalid, then a clear message will be displayed.
