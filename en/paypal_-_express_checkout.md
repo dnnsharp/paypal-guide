@@ -63,4 +63,10 @@ If you would like to change your primary currency, log in to your PayPal account
 Next up, add the currency of your choice, select it from the list, then click on "Make Primary." That's it, you can now safely select other currencies for your form.
 ![](Change currency.png)
 
+The payments are made on-site, without the need for the user to navigate to paypal.com.
+
+Depending on the transaction's result, you can set a host of actions to be executed:
+
+
+
   
