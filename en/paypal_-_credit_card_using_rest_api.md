@@ -53,3 +53,8 @@ The payments are made on-site, without the need for the user to navigate to payp
 Depending on the transaction's result, you can set a host of actions to be executed:
 
 ![](Untitled.png)
+
+Several tokens are available to use On Error for example to get a clue on what an error is about: ResponseReasonText, ResponseTransactionID, PaymentId:
+
+![](Tokens.png)
+
