@@ -1,6 +1,6 @@
 # PayPal - Credit Card (using REST API)
 
-**Breaking Changes** Increased minimum requirements to .NET 4.5 
+**Breaking Changes** Increased minimum requirements to .NET 4.5 and DNN 6+
 
 Start by adding a new form on the page. On the Initialization Screen, either use the template or start with a blank form. If latter, then add a button the form. From the list of actions select one of the paypal actions under Payments section. Check screenshot below for exact location. 
 ![](paypal-actions.png)
@@ -47,4 +47,6 @@ If not seen when created, you can check the credentials for each facilitator and
 ![](Sandbox Test Accounts   PayPal Developer credentials.png)
 
 Format your PayPal API requests using the details from your test accounts as seen below. ![][96] When filling the form, for testing purposes, use the other account, the buyer one, credentials.
+
+The payments are made on-site, without the need for the user to navigate to paypal.com.
 
