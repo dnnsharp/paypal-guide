@@ -49,4 +49,3 @@ If not seen when created, you can check the credentials for each facilitator and
 Format your PayPal API requests using the details from your test accounts as seen below. ![][96] When filling the form, for testing purposes, use the other account, the buyer one, credentials.
 
 The payments are made on-site, without the need for the user to navigate to paypal.com.
-
