@@ -69,6 +69,7 @@ New features (from v2.0.25):
 
 You can now offer your clients the possibility to test the product/service for a selected period of time before the main subscription starts.  
 
+![](trial_billing.png)
 
 ### Recurring Billing
 
@@ -83,6 +84,7 @@ Example: Billing Period = Month; Billing Frequency = 3; means every 3 months or 
 For the regular payment period, if no value is specified or the value is 0, the regular payment period continues until the profile is canceled or deactivated.
 For the regular payment period, if the value is greater than 0, the regular payment period will expire after the trial period is finished and continue at the billing frequency for the specified number of cycles
 Example: Billing Period = Month; Billing Frequency = 1; Cycles = 10 means every months for the next 10 months. The same parameters are available for setting up the trial billing.
- 
 
+![](recurring_payment.png)
 
+For more info please see our FAQs section.
