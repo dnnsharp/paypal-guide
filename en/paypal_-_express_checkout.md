@@ -79,7 +79,7 @@ Note: The combination of BillingPeriod and BillingFrequency cannot exceed one ye
 The combination of billing frequency and billing period must be less than or equal to one year. For example, if the billing cycle is Month, the maximum value for billing frequency is 12. Similarly, if the billing cycle is Week, the maximum value for billing frequency is 52.
 Note: If the billing period is SemiMonth, the billing frequency must be 1.
 Example: Billing Period = Month; Billing Frequency = 3; means every 3 months or quarterly
-  * **Recurring Billing Cycles**. Number of billing cycles for payment period.
+ * **Recurring Billing Cycles**. Number of billing cycles for payment period.
 For the regular payment period, if no value is specified or the value is 0, the regular payment period continues until the profile is canceled or deactivated.
 For the regular payment period, if the value is greater than 0, the regular payment period will expire after the trial period is finished and continue at the billing frequency for the specified number of cycles
 Example: Billing Period = Month; Billing Frequency = 1; Cycles = 10 means every months for the next 10 months. The same parameters are available for setting up the trial billing.
