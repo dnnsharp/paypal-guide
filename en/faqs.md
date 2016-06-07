@@ -2,7 +2,6 @@
 
 {% include "git+https://git.gitbook.com/dnnsharp/common.git/en/addon-faqs.md" %}
 
-
 ###Q. How can I set a trial of 0.99$ for one-week?
  
 **A.** In order to set a trial for one week, the setup should look like this:
