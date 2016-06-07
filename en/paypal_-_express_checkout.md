@@ -27,12 +27,9 @@ This is where you log in with your buyer test account.
 For testing purposes, you have to set up a test account. Go to , log in with your PayPal developer account, then  navigate to Dashboard > Sandbox > Accounts.
 ![](Sandbox test accounts.png)
 
-  
 
 You can find your test credentials by clicking on the Profile link under your facilitator email address (pictured above). You will need the following pieces of information: API Username, API Password, and API Signature.
 ![](Classic test api credentials.png)
-
-  
 
 Next up, make sure that Enable Express Checkout is on. You can do this by logging to
 
@@ -51,9 +48,6 @@ Click on Express Checkout and enable it if it's not.
 For business purposes, the credentials can be found by navigating to My Account > Profile > My Selling Tools > API Access (illustrated previously) and clicking on View API Signature (Option 2).
 ![](Business credentials.png)
 
-  
-
-*
 
 If you would like to change your primary currency, log in to your PayPal account, click on Profile, select My Money and click on Currencies:
 ![](My money.png)
@@ -68,3 +62,27 @@ The payments are made on-site, without the need for the user to navigate to payp
 Depending on the transaction's result, you can set a host of actions to be executed:
 
 ![](Untitled.png)
+New features (from v2.0.25):
+
+
+### Trial Billing
+
+You can now offer your clients the possibility to test the product/service for a selected period of time before the main subscription starts.  
+
+
+### Recurring Billing
+
+This new feature allows you to create custom payments very easily, using the following paramters:
+ * **Recurring Billing Period**. Unit for billing during this subscription period. For SemiMonth, billing is done on the 1st and 15th of each month.
+Note: The combination of BillingPeriod and BillingFrequency cannot exceed one year. You can select the billing period as daily, weekly, semimonthly, monthly and early.
+ * **Recurring Billing Frequency**. Number of billing periods that make up one billing cycle.
+The combination of billing frequency and billing period must be less than or equal to one year. For example, if the billing cycle is Month, the maximum value for billing frequency is 12. Similarly, if the billing cycle is Week, the maximum value for billing frequency is 52.
+Note: If the billing period is SemiMonth, the billing frequency must be 1.
+Example: Billing Period = Month; Billing Frequency = 3; means every 3 months or quarterly
+  * **Recurring Billing Cycles**. Number of billing cycles for payment period.
+For the regular payment period, if no value is specified or the value is 0, the regular payment period continues until the profile is canceled or deactivated.
+For the regular payment period, if the value is greater than 0, the regular payment period will expire after the trial period is finished and continue at the billing frequency for the specified number of cycles
+Example: Billing Period = Month; Billing Frequency = 1; Cycles = 10 means every months for the next 10 months. The same parameters are available for setting up the trial billing.
+ 
+
+
