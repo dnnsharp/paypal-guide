@@ -47,3 +47,31 @@ At the end, it will look like this:
 And when an item for the dropdown is selected, the button will be displayed:
 
 ![](2.png)
+
+### Q: Is there any way to let users choose how much and when they pay?
+
+**A.** Sure! You can do this by using tokens in the PayPal Checkout payment action. For example, here's a little tutorial for creating a 7-day trial (1.99$) and then let the user choose the Amount, Recurring Billing Cycle and Recurring Billing Frequency:
+
+1. Add an action form module and choose "Pay With Credit Card, PayPal";
+2. Create 3 text boxes. In our example, we have the following IDs: Amount, RecurringBillingCycle and RecurringBillingFrequency .
+3. On the PayPal checkout action, locate and add the following IDs to parameters:
+* [Amount] to Amount;
+* [RecurringBillingFrequency] to Recurring Billing Frequency;
+* [RecurringBillingCycle] to Recurring Billing Cycles.
+4. Save and test.
+
+Note that in this example we used some intuitive names for IDs. Also, using this example you can let the user choose whatever you want.
+
+Let's test the created form. Let's say the user wants to buy a service and pay 35$ billed every 2 months for a total period of 10 months. It should look like this:
+
+![](11.png)
+
+And on payment history on PayPal wesite, the user will see 2 payments. One for 1.99$, the trial period, and one recurring payment that starts right after the trial period expires:
+
+![](22.png)
+
+The recurring payment we can see that the client is billed with 35$ every 2 months, for a total period of 10 months (5 cycles):
+
+![](33.png)
+
+That's all.
