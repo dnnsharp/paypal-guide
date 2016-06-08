@@ -22,17 +22,17 @@
 ###Q. Is there any way to offer my clients multiple recurring periods in a drop-down?
 **A.** Yes, definitely. In order to achieve this, please follow this tutorial:
 1. Create an action form module;
-2. Add a "Multiple Choice (with Dropdown)" field;
-3. On the DataSource, select "Items" and add the desired in the "Items List" so it would look like this:
+2. Add a **"Multiple Choice (with Dropdown)"** field;
+3. On the **DataSource**, select **"Items"** and add the desired in the **"Items List"** so it would look like this:
 ![](3.png)
 
-4. Now create a button for each item in the dropdown (Add Fields - Buttons - Button);
+4. Now create a button for each item in the dropdown (**Add Fields - Buttons - Button**);
 ![](4.png)
-5. On each button we will create an "On Click Handler" with "PayPal - Express Checkout" action and configure the desire type of payment;
+5. On each button we will create an "**On Click Handler**" with "**PayPal - Express Checkout**" action and configure the desire type of payment;
 ![](6.png)
-6. Now we need to link the buttons to the dropdown items. For this, we will go on each button, on parameter "Show" from the "Bind expressions" and a token like this one: [SelectRecurringPeriod] == "Trial"
+6. Now we need to link the buttons to the dropdown items. For this, we will go on each button, on parameter "**Show**" from the "**Bind expressions**" and a token like this one: **[SelectRecurringPeriod] == "Trial"**
 ![](5.png)
-The first part of the token, [SelectRecurringPeriod] is the ID of the dropdown field, and on the second part ("Trial") will be item from the dropdown.
+The first part of the token, **[SelectRecurringPeriod]** is the ID of the dropdown field, and on the second part ("**Trial**") will be item from the dropdown.
 
 At the end, it will look like this:
 ![](1.png)
