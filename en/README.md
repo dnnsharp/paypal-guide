@@ -1,4 +1,4 @@
-# PayPal AddOn   ![](http://static.dnnsharp.com/logo/dnn-modules/dnn-paypal-add-on-300x388w.png)
+# PayPal AddOn                                                 ![](http://static.dnnsharp.com/logo/dnn-modules/dnn-paypal-add-on-300x388w.png)
 
 ### Collect Credit Card Payments With [PayPal](https://www.paypal.com/) Right On Your DNN Portal
 
@@ -20,35 +20,51 @@ Action Form provides the configuration and processing functionality necessary fo
 
 With DNN PayPal Add-on you can easily accept credit card payments directly on your DNN portal.
 
-#### Express Checkout Option
+#### 
+
+Express Checkout Option
 
 Streamline the checkout process and keep your customers on your DNN portal after making a purchase.
 
-#### No Redirect
+#### 
+
+No Redirect
 
 DNN PayPal Add-on doesn’t take your customers off your DNN portal. The payment step happens seamlessly on your website.
 
-#### Recurring Payments
+#### 
+
+Recurring Payments
 
 You can collect payments monthly or yearly with auto-renewing payment periods, allowing you to sell products and services that require recurring billing like subscriptions, dues and donations.
 
-#### Credit Card Transaction Type
+#### 
+
+Credit Card Transaction Type
 
 DNN PayPal Add-on allows you to choose between Sale, Order, and Authorization transaction types.
 
-#### Support for Multiple Currencies
+#### 
+
+Support for Multiple Currencies
 
 If you serve broad geographic regions, then you can benefit greatly by letting your customers pay in their local currency, such as: USD, EUR, AUD, CAD, NZD, GBP.
 
-#### Sandbox Mode
+#### 
+
+Sandbox Mode
 
 Test out your payments without having to pull out your credit cards and void charges over and over again while tweaking your forms.
 
-#### Easily Customizable
+#### 
+
+Easily Customizable
 
 You are not limited to default fields in the template. If the available templates don't suit your needs, you can select which extra data to pass to PayPal.
 
-#### Conditional Action
+#### 
+
+Conditional Action
 
 You can write a condition that will determine at submit time whether the PayPal actions will get executed or not.
 
