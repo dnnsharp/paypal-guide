@@ -1,6 +1,4 @@
-PayPal Integration
-=======
-
+# PayPal Integration
 
 This extension provides the ability to process payments using Paypal.
 
@@ -12,4 +10,13 @@ Integration requirements:
 * [Sharp Scheduler 02.01.83](http://www.dnnsharp.com/products/download?p=SCHD&v=02.01.83)
 * [InfoBox 01.01.74](http://www.dnnsharp.com/products/download?p=INFOB&v=01.01.74)
 
-General requirements: .NET4.5 and DNN 7.2.1.
+General requirements:
+
+* .NET 4.5 
+* Dnn minimum version 7.2.1
+* TLS 1.2 enabled 
+
+ 
+
+
+
